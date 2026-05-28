@@ -40,7 +40,7 @@ coverage:
 identifier:
   - source: "Documentário de casas tradicionais"
     refid : 50
----
+...
 
 A casa situa-se próxima ao Centro Histórico e foi construída sobre um
 dos baluartes da primeira cinta defensiva da cidade. Tem, em
@@ -75,3 +75,4 @@ aposentos da família, e o sótão destinado à acomodação dos criados.
 A circulação nos três pavimentos é do tipo corredor central,
 o que é muito raro em casa do século [XVII]{style="font-variant:all-small-caps"}.
 [@iphan:2010dossie1]
+
