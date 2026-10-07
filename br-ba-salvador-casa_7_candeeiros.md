@@ -145,7 +145,8 @@ resource:
           refid: "https://tradicional.arq.br"
           display: "Documentário da arquitetura tradicional"
     citation: 
-      - "@iphan:2010casas"
+    - refid: "@iphan:2010casas"
+      note: "p. 25"
     credit: "https://orcid.org/0009-0006-7479-6365"
   - id:
       type: "local"
@@ -168,7 +169,8 @@ resource:
           refid: "https://tradicional.arq.br"
           display: "Documentário da arquitetura tradicional"
     citation:
-      - "@iphan:2010casas"
+    - refid: "@iphan:2010casas"
+      note: "p. 25"
     credit: "https://orcid.org/0009-0006-7479-6365"
   - id:
       type: "local"
@@ -191,7 +193,8 @@ resource:
           refid: "https://tradicional.arq.br"
           display: "Documentário da arquitetura tradicional"
     citation:
-      - "@iphan:2010casas"
+    - refid: "@iphan:2010casas"
+      note: "p. 25"
     credit: "https://orcid.org/0009-0006-7479-6365"
   - id:
       type: "local"
@@ -214,7 +217,8 @@ resource:
           refid: "https://tradicional.arq.br"
           display: "Documentário da arquitetura tradicional"
     citation:
-      - "@iphan:2010casas"
+    - refid: "@iphan:2010casas"
+      note: "p. 25"
     credit: "https://orcid.org/0009-0006-7479-6365"
 ---
 
