@@ -30,147 +30,135 @@ format:
       extent: area
       value: 107.25
 id: 58QG6CMC+FF6
-resource:
-  - id:
-      type: "local"
-      refid: "br-go-pilar-r_cadeia_188/BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-TER-DA-100"
-    type:
-      type: "uri"
-      refid: "http://vocab.getty.edu/aat/300266190"
-      display: "Planta Baixa"
-    rel_type: "planFor"
-    description: "Desenho técnico contendo a Planta Baixa do Térreo da Casa à Rua da Cadeia"
-    perspective: 1
-    measurements:
-      unit:
-        display: "mm"
-    date: 2025-03-05
-    source:
-      - type: "corporate"
-        name:
-          type: "uri"
-          refid: "https://tradicional.arq.br"
-          display: "Documentário da arquitetura tradicional"
+resources:
+  - id: "BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-TER-DA-100"
+    title: "Planta Baixa do Térreo"
+    resource_type: architecturalSurvey
+    perspective: "1"
+    format: "image/vnd.dxf"
+    unit:
+      refid_type: "uri"
+      refid: "aat:300379097"
+      title: "milímetros"
+    provided_image:
+      - "https://desenho.tradicional.arq.br/br-go-pilar-r_cadeia_188/BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-TER-DA-100.dxf"
+    author: "orcid:0009-0006-7479-6365"
+    record_date: 2025-03-05
     bibliographic_citation:
-    - refid: '@iphan:2010casas'
-    contributor:
-    - id: 'https://orcid.org/0009-0006-7479-6365'
-      type: personal
-      role: researcher
-      source:
-      - relids: iphan:2010casas
-  - id:
-      type: "local"
-      refid: "br-go-pilar-r_cadeia_188/BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-F01-DA-100"
-    type:
-      type: "uri"
-      refid: "https://vocab.getty.edu/aat/300034065"
-      display: "Fachada"
-    rel_type: "planFor"
-    description: "Desenho técnico contendo Elevação 01 da Casa à Rua da Cadeia"
-    perspective: 2
-    measurements:
-      unit:
-        display: "mm"
-    date: 2025-03-05
-    source:
-      - type: "corporate"
-        name:
-          type: "uri"
-          refid: "https://tradicional.arq.br"
-          display: "Documentário da arquitetura tradicional"
+      - refid: '@iphan:2010casas'
+  - id: "BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-F01-DA-100"
+    title: "Elevação 01"
+    resource_type: architecturalSurvey
+    perspective: "2"
+    format: "image/vnd.dxf"
+    unit:
+      refid_type: "uri"
+      refid: "aat:300379097"
+      title: "milímetros"
+    provided_image:
+      - "https://desenho.tradicional.arq.br/br-go-pilar-r_cadeia_188/BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-F01-DA-100.dxf"
+    author: "orcid:0009-0006-7479-6365"
+    record_date: 2025-03-05
     bibliographic_citation:
-    - refid: '@iphan:2010casas'
-    contributor:
-    - id: 'https://orcid.org/0009-0006-7479-6365'
-      type: personal
-      role: researcher
-      source:
-      - relids: iphan:2010casas
-  - id:
-      type: "local"
-      refid: "br-go-pilar-r_cadeia_188/BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-F02-DA-100"
-    type:
-      type: "uri"
-      refid: "https://vocab.getty.edu/aat/300034065"
-      display: "Fachada"
-    rel_type: "planFor"
-    description: "Desenho técnico contendo Elevação 02 da Casa à Rua da Cadeia"
-    perspective: 2
-    measurements:
-      unit:
-        display: "mm"
-    date: 2025-03-05
-    source:
-      - type: "corporate"
-        name:
-          type: "uri"
-          refid: "https://tradicional.arq.br"
-          display: "Documentário da arquitetura tradicional"
+      - refid: '@iphan:2010casas'
+  - id: "BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-F02-DA-100"
+    title: "Elevação 02"
+    resource_type: architecturalSurvey
+    perspective: "2"
+    format: "image/vnd.dxf"
+    unit:
+      refid_type: "uri"
+      refid: "aat:300379097"
+      title: "milímetros"
+    provided_image:
+      - "https://desenho.tradicional.arq.br/br-go-pilar-r_cadeia_188/BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-F02-DA-100.dxf"
+    author: "orcid:0009-0006-7479-6365"
+    record_date: 2025-03-05
     bibliographic_citation:
-    - refid: '@iphan:2010casas'
-    contributor:
-    - id: 'https://orcid.org/0009-0006-7479-6365'
-      type: personal
-      role: researcher
-      source:
-      - relids: iphan:2010casas
-  - id:
-      type: "local"
-      refid: "br-go-pilar-r_cadeia_188/BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-C01-DA-100"
-    type:
-      type: "uri"
-      refid: "https://vocab.getty.edu/aat/300034223"
-      display: "Corte"
-    rel_type: "planFor"
-    description: "Desenho técnico contendo Corte 01 da Casa à Rua da Cadeia"
-    perspective: 3
-    measurements:
-      unit:
-        display: "mm"
-    date: 2025-03-05
-    source:
-      - type: "corporate"
-        name:
-          type: "uri"
-          refid: "https://tradicional.arq.br"
-          display: "Documentário da arquitetura tradicional"
+      - refid: '@iphan:2010casas'
+  - id: "BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-C01-DA-100"
+    title: "Corte 01"
+    resource_type: architecturalSurvey
+    perspective: "3"
+    format: "image/vnd.dxf"
+    unit:
+      refid_type: "uri"
+      refid: "aat:300379097"
+      title: "milímetros"
+    provided_image:
+      - "https://desenho.tradicional.arq.br/br-go-pilar-r_cadeia_188/BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-C01-DA-100.dxf"
+    author: "orcid:0009-0006-7479-6365"
+    record_date: 2025-03-05
     bibliographic_citation:
-    - refid: '@iphan:2010casas'
-    contributor:
-    - id: 'https://orcid.org/0009-0006-7479-6365'
-      type: personal
-      role: researcher
-      source:
-      - relids: iphan:2010casas
-  - id:
-      type: "local"
-      refid: "br-go-pilar-r_cadeia_188/BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-C02-DA-100"
-    type:
-      type: "uri"
-      refid: "https://vocab.getty.edu/aat/300034223"
-      display: "Corte"
-    rel_type: "planFor"
-    description: "Desenho técnico contendo Corte 02 da Casa à Rua da Cadeia"
-    perspective: 3
-    measurements:
-      unit:
-        display: "mm"
-    date: 2025-03-05
-    source:
-      - type: "corporate"
-        name:
-          type: "uri"
-          refid: "https://tradicional.arq.br"
-          display: "Documentário da arquitetura tradicional"
+      - refid: '@iphan:2010casas'
+  - id: "BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-C02-DA-100"
+    title: "Corte 02"
+    resource_type: architecturalSurvey
+    perspective: "3"
+    format: "image/vnd.dxf"
+    unit:
+      refid_type: "uri"
+      refid: "aat:300379097"
+      title: "milímetros"
+    provided_image:
+      - "https://desenho.tradicional.arq.br/br-go-pilar-r_cadeia_188/BR-GO-PILAR-R_CADEIA_188-ARQTRAD-LVE-C02-DA-100.dxf"
+    author: "orcid:0009-0006-7479-6365"
+    record_date: 2025-03-05
     bibliographic_citation:
-    - refid: '@iphan:2010casas'
-    contributor:
-    - id: 'https://orcid.org/0009-0006-7479-6365'
-      type: personal
-      role: researcher
-      source:
-      - relids: iphan:2010casas
+      - refid: '@iphan:2010casas'
+
+work_rights:
+  - rights_type: "specific"
+    statement:
+      refid_type: "uri"
+      refid: "https://rightsstatements.org/vocab/NKC/1.0/"
+      title: "Sem direito autoral conhecido"
+
+record_rights:
+  - rights_type: "specific"
+    statement:
+      refid_type: "uri"
+      refid: "https://creativecommons.org/licenses/by-sa/4.0/"
+      title: "Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)"
+      earliest_date:
+        date_type: exact
+        date_value: *RECORD_DATE
+      holder:
+        id: "doi:10.13039/100008994"
+        title: "Fundação Universidade de Brasília"
+        legal_body_type: "corporate"
+        weblink: "https://vereda.unb.br"
+        identifiers:
+          - refid: "isni:0000000122385157"
+            refid_type: "uri"
+            title: "ISNI"
+          - refid: "wd:Q1330634"
+            refid_type: "uri"
+            title: "Wikidata"
+  - rights_type: "specific"
+    statement:
+      refid_type: "uri"
+      refid: "https://creativecommons.org/licenses/by-sa/4.0/"
+      title: "Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)"
+      earliest_date:
+        date_type: exact
+        date_value: "2025-11-24"
+      latest_date:
+        date_type: exact
+        date_value: "2028-11-30"
+      holder:
+        id: "doi:10.13039/501100003593"
+        title: >
+          CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico
+        description: "Termo de outorga 406601/2025-9"
+        legal_body_type: "corporate"
+        weblink: "https://cnpq.br"
+        identifiers:
+          - refid: "isni:0000000121892026"
+            refid_type: "uri"
+          - refid: "wd:Q2994429"
+            refid_type: "uri"
+            title: "Wikidata"
 ---
 
 A casa foi construída por volta de 1890 e foi passada por herança. Foram trocados telha e estrutura do telhado, uma das paredes de adobe caiu em decorrência de uma forte chuva; uma porta que ia direto da cozinha para fora foi fechada e aberta outra na lateral que dá para uma área de lavanderia que foi acrescentada; há pedras no chão dos fundos da casa que indicam a existência de um outro cômodo demolido; o piso, que era de terra batida, foi substituído por cimento queimado; saleta no meio da casa funcionava como uma despensa com porta para cozinha, que foi transformada em janela; a porta de entrada antigamente ficava num dos cômodos laterais, e onde hoje é a porta de entrada existia uma janela. [@iphan:2023casas-pilar]
